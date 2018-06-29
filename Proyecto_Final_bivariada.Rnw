@@ -1,0 +1,48 @@
+\section{ExploraciÃ³n Bivariada}\label{bivariada}
+
+En este trabajo estamos interesados en el impacto de la poblacion en el IDH, veamos IDH con cada uno:
+
+<<getData, echo=FALSE>>=
+# carga de datos
+filename="colombia.csv"
+colb=read.csv(filename, stringsAsFactors = FALSE)
+colb$cabeLog=log(colb$PoblaciÃ³n.Cabecera)
+colb$restoLog=log(colb$PoblaciÃ³n.Resto)
+@
+
+<<corrDem, results=tex, echo=FALSE>>=
+library(stargazer)
+explanans=names(colb)[c(7:8)] # usando las logs
+corrDem=cor(colb$IDH,colb[,explanans],
+            use = "na.or.complete")
+stargazer(corrDem, title="CorrelaciÃ³n del IDH con las demÃ¡s variables",label = "corrDem")
+@
+
+
+Veamos la correlaciÃ³n entre las variables independientes:
+
+
+<<corrTableX, results=tex, echo=FALSE>>=
+corrTableX=round(cor(colb[,explanans],
+                         use = "na.or.complete"),2)
+corrTableX_copy=corrTableX
+# Hide upper triangle
+
+corrTableX[upper.tri(corrTableX)]<-""
+
+stargazer(corrTableX, title="CorrelaciÃ³n entre variables independientes",label = 'corrTableX')
+@
+
+Lo visto en la Tabla \ref{corrTableX} se refuerza claramente en la Figura \ref{corrPlotX}.
+
+\begin{figure}[h]
+\centering
+\begin{adjustbox}{width=7cm,height=7cm,clip,trim=1.5cm 0.5cm 0cm 1.5cm}
+<<corrPlotX, echo=FALSE,fig=TRUE>>=
+plot(colb[,explanans])
+@
+\end{adjustbox}
+\caption{correlaciÃ³n entre predictores}
+\label{corrPlotX}
+\end{figure}
+\endinput
