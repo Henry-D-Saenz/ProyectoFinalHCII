@@ -50,9 +50,9 @@ Comencemos viendo que hay en la secciÃ³n \ref{univariada} en la pÃ¡gina \pag
 \clearpage
 
 
-\input{Proyecto_Final_univariada.tex}
+\input{Proyecto_Final_Univariada.tex}
 \input{Proyecto_Final_bivariada.tex}
-\input{Proyecto_Final_regresion.tex}
+%\input{Proyecto_Final_regresion.tex}
 
 
 \bibliographystyle{apalike}
