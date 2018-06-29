@@ -1,7 +1,9 @@
+\documentclass{article}
 
-\section{Exploración Univariada}\label{univariada}
+\begin{document}
+\SweaveOpts{concordance=TRUE}
 
-En esta sección exploro cada índice.Nos vamos a interesar en la población cabecera y la poblacion resto. 
+En esta sección exploro cada índice. En esta sección exploro cada índice. En esta sección exploro cada índice. En esta sección exploro cada índice. En esta sección exploro cada índice. En esta sección exploro cada índice. En esta sección exploro cada índice. En esta sección exploro cada índice. En esta sección exploro cada índice.
 
 
 
@@ -9,7 +11,6 @@ En esta sección exploro cada índice.Nos vamos a interesar en la población cab
 # carga de datos
 filename="colombia.csv"
 colb=read.csv(filename, stringsAsFactors = FALSE)
-
 @
 
 No podemos hacer tabla de frecuencias, entonces sacamos solamente los estadisticos:
@@ -19,7 +20,6 @@ library(stargazer)
 vars1 <- colb[, c(2:5)]
 stargazer(vars1,title = "Medidas estadísticas", label = "stats",summary.stat = c("n", "median"))
 @
-
 
 <<histogramas, echo=false, fig=TRUE>>=
 hist(colb$IDH)
@@ -37,4 +37,4 @@ hist(colb$restoLog)
 @
 
 
-\endinput
+\end{document}
