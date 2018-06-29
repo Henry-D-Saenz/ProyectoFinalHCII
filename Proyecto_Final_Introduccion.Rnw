@@ -33,10 +33,14 @@
 
 
 \begin{abstract}
-Este es mi primer trabajo en exploracion y modelamiento de indices usando LATEX. Este trabajo lo he hecho bajo la filosof√É≠a de trabajo replicable. Este es mi primer trabajo en exploracion y modelamiento de indices usando LATEX. Este trabajo lo he hecho bajo la filosof√É≠a de trabajo replicable. Este es mi primer trabajo en exploracion y modelamiento de indices usando LATEX. Este trabajo lo he hecho bajo la filosof√É≠a de trabajo replicable. Este es mi primer trabajo en exploracion y modelamiento de indices usando LATEX. Este trabajo lo he hecho bajo la filosof√É≠a de trabajo replicable.
+Este es mi primer trabajo en exploracion y modelamiento de indices usando LATEX. Este trabajo lo he hecho bajo la filosof√É≠a de trabajo replicable. 
+
+Colombia es un paÌs... bla bla bla
+
+Quise explorar el Indice de Desarrollo Humano en el paÌs por regiones. Se desea ver si las regiones tienen un IDH parecido o hay mucha igualdad en el territorio. 
 \end{abstract}
 
-\section*{Introducci√É¬≥n}
+\section*{IntroducciÛn}
 
 Aqui les presento mi investigacion sobre diversos indices sociales en el mundo. Los indices los consegu√É≠ de wikipedia, espero que les gusten mucho. Aqui les presento mi investigacion sobre diversos indices sociales en el mundo. Los indices los consegu√É≠ de wikipedia, espero que les gusten mucho.Aqui les presento mi investigacion sobre diversos indices sociales en el mundo. Los indices los consegu√É≠ de wikipedia, espero que les gusten mucho.Aqui les presento mi investigacion sobre diversos indices sociales en el mundo. Los indices los consegu√É≠ de wikipedia, espero que les gusten mucho.
 Aqui les presento mi investigacion sobre diversos indices sociales en el mundo. Los indices los consegu√É≠ de wikipedia, espero que les gusten mucho.Aqui les presento mi investigacion sobre diversos indices sociales en el mundo. Los indices los consegu√É≠ de wikipedia, espero que les gusten mucho.Aqui les presento mi investigacion sobre diversos indices sociales en el mundo. Los indices los consegu√É≠ de wikipedia, espero que les gusten mucho.
