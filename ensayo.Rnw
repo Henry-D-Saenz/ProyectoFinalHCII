@@ -20,12 +20,13 @@ library(stargazer)
 vars1 <- colb[, c(2:5)]
 stargazer(vars1,title = "Medidas estadísticas", label = "stats",summary.stat = c("n", "median"))
 @
-
+\begin{figure}
 <<histogramas, echo=false, fig=TRUE>>=
 hist(colb$IDH)
 hist(colb$PoblaciÃ³n.Cabecera)
 hist(colb$PoblaciÃ³n.Resto)
 @
+\end{figure}
 
 <<normalidad, echo=FALSE>>=
 colb$cabeLog=log(colb$PoblaciÃ³n.Cabecera)

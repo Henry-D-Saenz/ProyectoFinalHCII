@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  29 JUN 2018 17:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  29 JUN 2018 17:44
 entering extended mode
 **./ensayo.tex
 (ensayo.tex
@@ -269,7 +269,7 @@ Package pdftex.def Info: ensayo-histogramas.pdf  used on input line 30.
 stogramas.pdf>] (ensayo.aux) ) 
 Here is how much of TeX's memory you used:
  2588 strings out of 493305
- 37121 string characters out of 3138874
+ 37125 string characters out of 3138874
  87274 words of memory out of 3000000
  6118 multiletter control sequences out of 15000+200000
  6552 words of font info for 18 fonts, out of 3000000 for 9000
@@ -277,7 +277,7 @@ Here is how much of TeX's memory you used:
  41i,8n,25p,366b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmr10.pfb>
-Output written on ensayo.pdf (1 page, 24676 bytes).
+Output written on ensayo.pdf (1 page, 24679 bytes).
 PDF statistics:
  18 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
