@@ -37,7 +37,7 @@ Este es mi primer trabajo en exploracion y modelamiento de indices usando LATEX.
 
 Colombia es un país... bla bla bla
 
-Quise explorar el Indice de Desarrollo Humano en el país por regiones. Se desea ver si las regiones tienen un IDH parecido o hay mucha igualdad en el territorio. 
+Quisimos explorar el Indice de Desarrollo Humano en el país por regiones. Se desea ver si las regiones tienen un IDH parecido o hay mucha igualdad en el territorio. 
 \end{abstract}
 
 \section*{Introducción}
