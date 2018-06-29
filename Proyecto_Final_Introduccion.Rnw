@@ -50,13 +50,13 @@ Comencemos viendo que hay en la secciÃ³n \ref{univariada} en la pÃ¡gina \pag
 \clearpage
 
 
-%\input{paperVersion_7_univariada.tex}
-%\input{paperVersion_7_bivariada.tex}
-%\input{paperVersion_7_regresion.tex}
+\input{Proyecto_Final_univariada.tex}
+\input{Proyecto_Final_bivariada.tex}
+\input{Proyecto_Final_regresion.tex}
 
 
 \bibliographystyle{apalike}
-\renewcommand{\refname}{Bibliography}
+\renewcommand{\refname}{Bibliografia}
 \bibliography{Colombia}
 
 \end{document}
