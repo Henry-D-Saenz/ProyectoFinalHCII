@@ -9,27 +9,25 @@ En esta sección exploro cada índice.Nos vamos a interesar en la población cab
 # carga de datos
 filename="colombia.csv"
 colb=read.csv(filename, stringsAsFactors = FALSE)
-
 @
 
 No podemos hacer tabla de frecuencias, entonces sacamos solamente los estadisticos:
 
 <<estadisticos, results=tex, echo=FALSE>>=
 library(stargazer)
-vars1 <- colb[, c(2:5)]
-stargazer(vars1,title = "Medidas estadísticas", label = "stats",summary.stat = c("n", "median"))
+stargazer(colb ,title = "Medidas estadisticas", label = "stats",summary.stat = c("n", "median"))
 @
 
 
-<<histogramas, echo=false, fig=TRUE>>=
+<<histogramas, echo=FALSE>>=
 hist(colb$IDH)
-hist(colb$PoblaciÃ³n.Cabecera)
-hist(colb$PoblaciÃ³n.Resto)
+hist(colb$Población.Cabecera)
+hist(colb$Población.Resto)
 @
 
 <<normalidad, echo=FALSE>>=
-colb$cabeLog=log(colb$PoblaciÃ³n.Cabecera)
-colb$restoLog=log(colb$PoblaciÃ³n.Resto)
+colb$cabeLog=log(colb$Población.Cabecera)
+colb$restoLog=log(colb$Población.Resto)
 
 hist(colb$cabeLog)
 hist(colb$restoLog)
