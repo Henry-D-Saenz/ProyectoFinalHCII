@@ -1,4 +1,4 @@
-\section{Exploracion Bivariada}\label{bivariada}
+\section{ExploraciÃ³n Bivariada}\label{bivariada}
 
 En este trabajo estamos interesados en el impacto de la poblacion en el IDH, veamos IDH con cada uno:
 
@@ -6,8 +6,8 @@ En este trabajo estamos interesados en el impacto de la poblacion en el IDH, vea
 # carga de datos
 filename="colombia.csv"
 colb=read.csv(filename, stringsAsFactors = FALSE)
-colb$cabeLog=log(colb$Población.Cabecera)
-colb$restoLog=log(colb$Población.Resto)
+colb$cabeLog=log(colb$PoblaciÃ³n.Cabecera)
+colb$restoLog=log(colb$PoblaciÃ³n.Resto)
 @
 
 <<corrDem, results=tex, echo=FALSE>>=
@@ -15,11 +15,11 @@ library(stargazer)
 explanans=names(colb)[c(7:8)] # usando las logs
 corrDem=cor(colb$IDH,colb[,explanans],
             use = "na.or.complete")
-stargazer(corrDem, title="Correlacion del IDH con las demas variables",label = "corrDem")
+stargazer(corrDem, title="CorrelaciÃ³n del IDH con las demÃ¡s variables",label = "corrDem")
 @
 
 
-Veamos la correlacion entre las variables independientes:
+Veamos la correlaciÃ³n entre las variables independientes:
 
 
 <<corrTableX, results=tex, echo=FALSE>>=
@@ -30,7 +30,7 @@ corrTableX_copy=corrTableX
 
 corrTableX[upper.tri(corrTableX)]<-""
 
-stargazer(corrTableX, title="Correlacion entre variables independientes",label = 'corrTableX')
+stargazer(corrTableX, title="CorrelaciÃ³n entre variables independientes",label = 'corrTableX')
 @
 
 Lo visto en la Tabla \ref{corrTableX} se refuerza claramente en la Figura \ref{corrPlotX}.
@@ -42,7 +42,7 @@ Lo visto en la Tabla \ref{corrTableX} se refuerza claramente en la Figura \ref{c
 plot(colb[,explanans])
 @
 \end{adjustbox}
-\caption{correlacion entre predictores}
+\caption{correlaciÃ³n entre predictores}
 \label{corrPlotX}
 \end{figure}
 \endinput
