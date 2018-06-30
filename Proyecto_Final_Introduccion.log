@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  29 JUN 2018 20:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  29 JUN 2018 20:12
 entering extended mode
 **./Proyecto_Final_Introduccion.tex
 (Proyecto_Final_Introduccion.tex
@@ -839,26 +839,26 @@ Package pdftex.def Info: Proyecto_Final_regresion-plotMapf.pdf  used on input l
 ine 62.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
 
-Overfull \hbox (224.18413pt too wide) in paragraph at lines 58--64
+Overfull \hbox (167.18861pt too wide) in paragraph at lines 58--64
  [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-)
-No file Proyecto_Final_Introduccion.bbl.
 [5
 
-] [6 <./Proyecto_Final_regresion-plotMapf.pdf>]
-(Proyecto_Final_Introduccion.aux)
+ <./Proyecto_Final_regresion-plotMapf.pdf>]) (Proyecto_Final_Introduccion.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 3.
+
+) [6
+
+] (Proyecto_Final_Introduccion.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4493 strings out of 493305
- 66916 string characters out of 3125450
+ 4495 strings out of 493305
+ 67038 string characters out of 3125450
  122048 words of memory out of 3000000
  7899 multiletter control sequences out of 15000+200000
  32025 words of font info for 64 fonts, out of 3000000 for 9000
@@ -884,7 +884,7 @@ mr9.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:
 /Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmtt9.pfb>
-Output written on Proyecto_Final_Introduccion.pdf (6 pages, 722746 bytes).
+Output written on Proyecto_Final_Introduccion.pdf (6 pages, 723218 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

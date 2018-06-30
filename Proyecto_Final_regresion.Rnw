@@ -78,7 +78,7 @@ mapCol_idh=merge(mapCol_idh,clusters, by='NAME_1',all.x=F)
 
 \begin{figure}[h]
 \centering
-\begin{adjustbox}{width=20cm,height=15cm,clip,trim=22cm 0cm 0cm 0cm}
+\begin{adjustbox}{width=18cm,height=14cm,clip,trim=25cm 0cm 0cm 0cm}
 <<plotMapf,results=tex, echo=FALSE, fig=TRUE>>=
 
 # grafico mapa basico
@@ -102,7 +102,7 @@ plot(mapCol,col='grey',border=F)
 colorForScale='Set2'
 paleta = brewer.pal(numberOfClasses, colorForScale)
 plot(mapCol_idh, col = paleta[varToPLot],border=F,add=T)
-legend('left', legend = c("LOW","UP","MEDIUM"),
+legend('top', legend = c("LOW","UP","MEDIUM"),
        fill = paleta, 
        cex = 0.7, 
        bty = "n",
@@ -112,6 +112,6 @@ legend('left', legend = c("LOW","UP","MEDIUM"),
 \caption{Paises conglomerados segun sus indicadores sociopolaticos}\label{clustmap}
 \end{figure}
 
-
+\clearpage
 
 \endinput
