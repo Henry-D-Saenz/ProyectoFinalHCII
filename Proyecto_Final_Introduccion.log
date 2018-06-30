@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  29 JUN 2018 20:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  29 JUN 2018 20:38
 entering extended mode
 **./Proyecto_Final_Introduccion.tex
 (Proyecto_Final_Introduccion.tex
@@ -684,6 +684,21 @@ File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 
 LaTeX Warning: Label `corrPlotX' multiply defined.
 
+
+! Package natbib Error: Bibliography not compatible with author-year citations.
+
+(natbib)                Press <return> to continue in numerical citation style.
+
+
+See the natbib package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...mand\NAT@force@numbers{}\NAT@force@numbers
+                                                  
+Check the bibliography entries for non-compliant syntax,
+or select author-year BibTeX style, e.g. plainnat
+
 )
 \openout1 = `Proyecto_Final_Introduccion.aux'.
 
@@ -808,7 +823,7 @@ Overfull \hbox (13.80823pt too wide) in paragraph at lines 14--25
  [][] 
  []
 
-<Proyecto_Final_Univariada-corrPlotX.pdf, id=18, 433.62pt x 433.62pt>
+<Proyecto_Final_Univariada-corrPlotX.pdf, id=15, 433.62pt x 433.62pt>
 File: Proyecto_Final_Univariada-corrPlotX.pdf Graphic file (type pdf)
 <use Proyecto_Final_Univariada-corrPlotX.pdf>
 Package pdftex.def Info: Proyecto_Final_Univariada-corrPlotX.pdf  used on input
@@ -822,7 +837,7 @@ Overfull \hbox (24.88672pt too wide) in paragraph at lines 28--31
 [2
 
  <./Proyecto_Final_Univariada-corrPlotX.pdf>]) (Proyecto_Final_bivariada.tex
-<Proyecto_Final_bivariada-corrPlotX.pdf, id=28, 433.62pt x 433.62pt>
+<Proyecto_Final_bivariada-corrPlotX.pdf, id=25, 433.62pt x 433.62pt>
 File: Proyecto_Final_bivariada-corrPlotX.pdf Graphic file (type pdf)
 <use Proyecto_Final_bivariada-corrPlotX.pdf>
 Package pdftex.def Info: Proyecto_Final_bivariada-corrPlotX.pdf  used on input 
@@ -832,7 +847,7 @@ line 44.
 
  <./Proyecto_Final_bivariada-corrPlotX.pdf>]
 [4]
-<Proyecto_Final_regresion-plotMapf.pdf, id=43, 433.62pt x 433.62pt>
+<Proyecto_Final_regresion-plotMapf.pdf, id=41, 433.62pt x 433.62pt>
 File: Proyecto_Final_regresion-plotMapf.pdf Graphic file (type pdf)
 <use Proyecto_Final_regresion-plotMapf.pdf>
 Package pdftex.def Info: Proyecto_Final_regresion-plotMapf.pdf  used on input l
@@ -845,11 +860,8 @@ Overfull \hbox (167.18861pt too wide) in paragraph at lines 58--64
 
 [5
 
- <./Proyecto_Final_regresion-plotMapf.pdf>]) (Proyecto_Final_Introduccion.bbl
-
-Package natbib Warning: Empty `thebibliography' environment on input line 3.
-
-) [6
+ <./Proyecto_Final_regresion-plotMapf.pdf>]) (Proyecto_Final_Introduccion.bbl) 
+[6
 
 ] (Proyecto_Final_Introduccion.aux)
 
@@ -857,36 +869,34 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4495 strings out of 493305
- 67038 string characters out of 3125450
- 122048 words of memory out of 3000000
- 7899 multiletter control sequences out of 15000+200000
- 32025 words of font info for 64 fonts, out of 3000000 for 9000
+ 4505 strings out of 493305
+ 67186 string characters out of 3125450
+ 122070 words of memory out of 3000000
+ 7903 multiletter control sequences out of 15000+200000
+ 35169 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,37p,670b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,9n,37p,652b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmbx12.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Henry D Saenz L/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users
+c/amsfonts/cm/cmbx10.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Henry D Saenz L/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users
 /Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi9.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Henry D Saenz L/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Henry D Sa
-enz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pf
-b><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr17.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Henry D Saenz L/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Hen
-ry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr9.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Henry D Saenz L/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:
-/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmtt9.pfb>
-Output written on Proyecto_Final_Introduccion.pdf (6 pages, 723218 bytes).
+cm/cmmi10.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Henry D Saenz L/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Henry D Sae
+nz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb
+><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr6.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Henry D Saenz L/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Henry
+ D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+y10.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Henry D Saenz L/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on Proyecto_Final_Introduccion.pdf (6 pages, 721963 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
+ 97 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  20 words of extra memory for PDF output out of 10000 (max. 10000000)
 

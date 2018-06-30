@@ -29,7 +29,7 @@ stargazer(LinRegA,LinRegB,title = "Modelos de Regresion",label = "regresiones")
 
 Como acabamos de ver en la Tabla \ref{regresiones} en la pagina \pageref{regresiones}, si quisieras sintetizar la multidimensionalidad de nuestros indicadores, podramos usar tres de las cuatro variables que tenemos (un par de las originales tiene demasiada correlacion). 
 
-%Asi, propongo que calculemos conglomerados de paises usando toda la informacion de tres de los indicadores. Como nuestras variables son ordinales utilizaremos un proceso de conglomeracion donde las distancia seran calculadas usando la medida {\bf gower} propuestas en \cite{gower_general_1971}, y para los enlazamientos usaremos la tecnica de {\bf medoides} segun \cite{reynolds_clustering_2006}. Los tres conglomerados se muestran en la Figura \ref{clustmap}.
+Asi, propongo que calculemos conglomerados de paises usando toda la informacion de tres de los indicadores.Para los enlazamientos usaremos la tecnica de {\bf Kmeans} segun \cite{macqueen_methods_nodate}. Los tres conglomerados se muestran en la Figura \ref{clustmap}.
 
 <<getMap, echo=FALSE,results=hide>>=
 library(rgdal)

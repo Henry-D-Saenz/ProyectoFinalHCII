@@ -6,7 +6,7 @@ Finalmente, vemos los modelos propuestos. Primero sin poblacion resto, luego con
   
   
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: Fri, Jun 29, 2018 - 8:11:13 PM
+% Date and time: Fri, Jun 29, 2018 - 8:32:12 PM
 \begin{table}[!htbp] \centering 
   \caption{Modelos de Regresion} 
   \label{regresiones} 
@@ -46,7 +46,7 @@ F Statistic & 9.347$^{***}$ (df = 1; 30) & 10.706$^{***}$ (df = 2; 29) \\
 
 Como acabamos de ver en la Tabla \ref{regresiones} en la pagina \pageref{regresiones}, si quisieras sintetizar la multidimensionalidad de nuestros indicadores, podramos usar tres de las cuatro variables que tenemos (un par de las originales tiene demasiada correlacion). 
 
-%Asi, propongo que calculemos conglomerados de paises usando toda la informacion de tres de los indicadores. Como nuestras variables son ordinales utilizaremos un proceso de conglomeracion donde las distancia seran calculadas usando la medida {\bf gower} propuestas en \cite{gower_general_1971}, y para los enlazamientos usaremos la tecnica de {\bf medoides} segun \cite{reynolds_clustering_2006}. Los tres conglomerados se muestran en la Figura \ref{clustmap}.
+Asi, propongo que calculemos conglomerados de paises usando toda la informacion de tres de los indicadores.Para los enlazamientos usaremos la tecnica de {\bf Kmeans} segun \cite{macqueen_methods_nodate}. Los tres conglomerados se muestran en la Figura \ref{clustmap}.
 
 
 
@@ -56,10 +56,10 @@ Como acabamos de ver en la Tabla \ref{regresiones} en la pagina \pageref{regresi
 \begin{figure}[h]
 \centering
 \begin{adjustbox}{width=18cm,height=14cm,clip,trim=25cm 0cm 0cm 0cm}
-[1] 3 1 2  Group.1       IDH  cabeLog restoLog
+[1] 2 1 3  Group.1       IDH  cabeLog restoLog
 1       1 0.8313529 14.03019 12.74569
-2       2 0.7560000 13.05663 12.80485
-3       3 0.7825714 10.58974 10.60684\includegraphics{Proyecto_Final_regresion-plotMapf}
+2       2 0.7825714 10.58974 10.60684
+3       3 0.7560000 13.05663 12.80485\includegraphics{Proyecto_Final_regresion-plotMapf}
 \end{adjustbox}
 \caption{Paises conglomerados segun sus indicadores sociopolaticos}\label{clustmap}
 \end{figure}

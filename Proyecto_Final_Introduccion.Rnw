@@ -33,13 +33,13 @@
 
 
 \begin{abstract}
-Este es nuestro primer trabajo en exploración y modelamiento de índices usando LATEX. Este trabajo lo he hecho bajo la filosofía de trabajo replicable. En este trabajo vamos a explorar
+Este es nuestro primer trabajo en exploracion y modelamiento de indices usando LATEX. Este trabajo lo he hecho bajo la filosofia de trabajo replicable. En este trabajo vamos a explorar
 \end{abstract}
 
-\section*{Introducción}
+\section*{Introducci\'on}
 
-Colombia, oficialmente República de Colombia, es un país soberano situado en la región noroccidental de América del Sur, que se constituye en un estado unitario, social y democrático de derecho cuya forma de gobierno es presidencialista. Es una república organizada políticamente en 32 departamentos descentralizados y el Distrito capital de Bogotá, sede del gobierno nacional.  En este trabajo vamos a estudiar el Indice de Desarrollo Humano en cado uno de los departamentos del país. 
-El índice de desarrollo humano (IDH) es un indicador del desarrollo humano por país, elaborado por el Programa de las Naciones Unidas para el Desarrollo (PNUD). El índice de Desarrollo Humano (IDH) es un indicador sintético de los logros medios obtenidos en las dimensiones fundamentales del desarrollo humano, a saber, tener una vida larga y saludable, adquirir conocimientos y disfrutar de un nivel de vida digno. El IDH es la media aritmética de los índices normalizados de cada una de las tres dimensiones. En este estudio no tenemos el detalle de cada una de las dimensiones, solamente el IDH por departamento.
+Colombia, oficialmente Republica de Colombia, es un pais soberano situado en la region noroccidental de America del Sur, que se constituye en un estado unitario, social y democratico de derecho cuya forma de gobierno es presidencialista. Es una republica organizada politicamente en 32 departamentos descentralizados y el Distrito capital de Bogota, sede del gobierno nacional.  En este trabajo vamos a estudiar el Indice de Desarrollo Humano en cado uno de los departamentos del pais. 
+El indice de desarrollo humano (IDH) es un indicador del desarrollo humano por pais, elaborado por el Programa de las Naciones Unidas para el Desarrollo (PNUD). El indice de Desarrollo Humano (IDH) es un indicador sintetico de los logros medios obtenidos en las dimensiones fundamentales del desarrollo humano, a saber, tener una vida larga y saludable, adquirir conocimientos y disfrutar de un nivel de vida digno. El IDH es la media aritmetica de los indices normalizados de cada una de las tres dimensiones. En este estudio no tenemos el detalle de cada una de las dimensiones, solamente el IDH por departamento.
 
 Comencemos viendo que hay en la seccion \ref{univariada} en la pagina \pageref{univariada}.
 
