@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  29 JUN 2018 17:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  29 JUN 2018 20:02
 entering extended mode
 **./Proyecto_Final_Introduccion.tex
 (Proyecto_Final_Introduccion.tex
@@ -680,7 +680,11 @@ LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
 ("C:\Users\Henry D Saenz L\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aer
 .fd"
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
-)))) (Proyecto_Final_Introduccion.aux)
+)))) (Proyecto_Final_Introduccion.aux
+
+LaTeX Warning: Label `corrPlotX' multiply defined.
+
+)
 \openout1 = `Proyecto_Final_Introduccion.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -796,57 +800,93 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 33.
-LaTeX Font Info:    Try loading font information for TS1+aer on input line 49.
- (C:/PROGRA~1/R/R-34~1.4/share/texmf/tex/latex\ts1aer.fd
-File: ts1aer.fd 
-)
-LaTeX Font Info:    Font shape `TS1/aer/m/n' in size <10> not available
-(Font)              Font shape `TS1/cmr/m/n' tried instead on input line 49.
  [1
 
-{C:/Users/Henry D Saenz L/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(Proyecto_Final_Univariada.tex) (Proyecto_Final_bivariada.tex
-<Proyecto_Final_bivariada-corrPlotX.pdf, id=19, 433.62pt x 433.62pt>
+{C:/Users/Henry D Saenz L/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (
+Proyecto_Final_Univariada.tex
+Overfull \hbox (13.80823pt too wide) in paragraph at lines 14--25
+ [][] 
+ []
+
+<Proyecto_Final_Univariada-corrPlotX.pdf, id=18, 433.62pt x 433.62pt>
+File: Proyecto_Final_Univariada-corrPlotX.pdf Graphic file (type pdf)
+<use Proyecto_Final_Univariada-corrPlotX.pdf>
+Package pdftex.def Info: Proyecto_Final_Univariada-corrPlotX.pdf  used on input
+ line 29.
+(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
+
+Overfull \hbox (24.88672pt too wide) in paragraph at lines 28--31
+ [] 
+ []
+
+[2
+
+ <./Proyecto_Final_Univariada-corrPlotX.pdf>]) (Proyecto_Final_bivariada.tex
+<Proyecto_Final_bivariada-corrPlotX.pdf, id=28, 433.62pt x 433.62pt>
 File: Proyecto_Final_bivariada-corrPlotX.pdf Graphic file (type pdf)
 <use Proyecto_Final_bivariada-corrPlotX.pdf>
 Package pdftex.def Info: Proyecto_Final_bivariada-corrPlotX.pdf  used on input 
 line 44.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
+) (Proyecto_Final_regresion.tex [3
+
+ <./Proyecto_Final_bivariada-corrPlotX.pdf>]
+[4]
+<Proyecto_Final_regresion-plotMapf.pdf, id=43, 433.62pt x 433.62pt>
+File: Proyecto_Final_regresion-plotMapf.pdf Graphic file (type pdf)
+<use Proyecto_Final_regresion-plotMapf.pdf>
+Package pdftex.def Info: Proyecto_Final_regresion-plotMapf.pdf  used on input l
+ine 62.
+(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
+
+Overfull \hbox (224.18413pt too wide) in paragraph at lines 58--64
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 )
 No file Proyecto_Final_Introduccion.bbl.
-[2
+[5
 
-] [3 <./Proyecto_Final_bivariada-corrPlotX.pdf>]
-(Proyecto_Final_Introduccion.aux) ) 
+] [6 <./Proyecto_Final_regresion-plotMapf.pdf>]
+(Proyecto_Final_Introduccion.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4497 strings out of 493305
- 66643 string characters out of 3125450
- 119993 words of memory out of 3000000
- 7907 multiletter control sequences out of 15000+200000
- 29876 words of font info for 62 fonts, out of 3000000 for 9000
+ 4493 strings out of 493305
+ 66916 string characters out of 3125450
+ 122048 words of memory out of 3000000
+ 7899 multiletter control sequences out of 15000+200000
+ 32025 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,37p,669b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Henry D Saenz L\AppData\Local\MiK
-TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk><C:/Users/Henry D Saenz 
-L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmbx9.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Henry D Saenz L/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Hen
+ 41i,9n,37p,670b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Henry D Saenz L/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users
+/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi9.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Henry D Saenz L/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Henry D Sa
+enz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pf
+b><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr17.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Henry D Saenz L/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Hen
 ry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmib10.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb><C:/Users/Henry D Saenz L/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Henry D Saenz 
-L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C
-:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr6.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Henry D Saenz L/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Henry D 
-Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.
-pfb>
-Output written on Proyecto_Final_Introduccion.pdf (3 pages, 140047 bytes).
+mr9.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><C:/Users/Henry D Saenz L/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Henry D Saenz L/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:
+/Users/Henry D Saenz L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmtt9.pfb>
+Output written on Proyecto_Final_Introduccion.pdf (6 pages, 722746 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 101 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 10 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 20 words of extra memory for PDF output out of 10000 (max. 10000000)
 
