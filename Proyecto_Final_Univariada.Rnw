@@ -3,8 +3,6 @@
 
 En esta sección exploro cada índice.Nos vamos a interesar en la población cabecera y la poblacion resto. 
 
-
-
 <<getData, echo=FALSE>>=
 # carga de datos
 filename="colombia.csv"
@@ -15,24 +13,31 @@ No podemos hacer tabla de frecuencias, entonces sacamos solamente los estadistic
 
 <<estadisticos, results=tex, echo=FALSE>>=
 library(stargazer)
-stargazer(colb ,title = "Medidas estadisticas", label = "stats",summary.stat = c("n", "median"))
+stargazer(colb ,title = "Medidas estadisticas", label = "stats",summary.stat = c("n", "median","mean","min","max"))
 @
 
-
-<<histogramas, echo=FALSE>>=
-hist(colb$IDH)
-hist(colb$Población.Cabecera)
-hist(colb$Población.Resto)
-@
-
-<<normalidad, echo=FALSE>>=
+\begin{figure}[h]
+\centering
+\begin{adjustbox}{width=13cm,height=9cm,clip,trim=0cm 0cm 0cm 0cm}
+<<corrPlotX, echo=FALSE,fig=TRUE>>=
+par(mfrow=c(2,2))
+title="IDH"
+paleta='red'
+hist(colb$IDH,main=title,col=paleta,ylim = c(0,35), ylab = "%",xlab = "IDH")
+title="Cabecera"
+paleta='blue'
+hist(colb$Población.Cabecera,main=title,col=paleta,ylim = c(0,35), ylab = "%",xlab = title)
+title="Resto"
+paleta='yellow'
+hist(colb$Población.Resto,main=title,col=paleta,ylim = c(0,35), ylab = "%",xlab = title)
 colb$cabeLog=log(colb$Población.Cabecera)
 colb$restoLog=log(colb$Población.Resto)
-
-hist(colb$cabeLog)
-hist(colb$restoLog)
-
 @
+\end{adjustbox}
+\caption{correlacion entre predictores}
+\label{corrPlotX}
+\end{figure}
 
+\clearpage
 
 \endinput
